@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*----------------------------*/
+/*-------Header Styles--------*/
+/*----------------------------*/
+  header {
+    background-color: #555;
+  }
+  
+  header nav {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px;
+  }
+
+  header img {
+    margin-right: 20px;
+  }
+
+  header ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header ul li {
+    width: 100%;
+    margin: auto;
+  }
+  
+  header ul li a {
+    color: white;
+    text-decoration: none;
+  }
+/*----------------------------*/
+/*---------Main Styles--------*/
+/*----------------------------*/
+  main {
+    width: 960px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  main img {
+    margin-bottom: 30px;
+  }
+  
+  main article {
+    width: 450px;
+  }
+  
+  main article h3 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  
+  main article section {
+    overflow: auto;
+    height: 320px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  main article section::-webkit-scrollbar {
+    display: none;
+  }
+
+  main article div {
+    width: 160px;
+    border-radius: 0px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    transition-duration: 350ms;
+}
+
+main article div:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 350ms;
+}
+/*----------------------------*/
+/*-------Footer Styles--------*/
+/*----------------------------*/
+footer {
+    background-color: #555;
+    height: 100px;
+}
